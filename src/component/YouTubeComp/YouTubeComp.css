@@ -1,0 +1,36 @@
+.youtube-wrapper {
+    width: 210px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.img-thumb img {
+    width: 200px;
+}
+
+.img-thumb {
+    width: 100%;
+}
+
+.time {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    position: relative;
+    left: 9.25em;
+    top: -3.25em;
+    
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 1.25em;
+    margin-top: -3.25em;
+}
+
+.desc {
+    margin-top: -1.25em;
+}

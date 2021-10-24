@@ -1,0 +1,55 @@
+.header {
+    background: orangered;
+    width: 15em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.count {
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.card {
+    margin: 15px 1.5em;
+    background: whitesmoke;
+    width: 200px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.product-price {
+    color: orangered;
+    font-weight: 500;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.minus, .plus {
+    background: orangered;
+    border: none;
+    border-radius: 5px;
+    width: 25px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.minus:active, .plus:active {
+    margin-top: 1px;
+    border: 1px solid black;
+}
